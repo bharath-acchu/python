@@ -1,15 +1,4 @@
-def add(a,b):                         #function to add
-    return (a+b)
-def sub(a,b):                          
-    return (a-b)
-def mul(a,b):
-    return (a*b)
-def divide(a,b):
-    if(b==0):
-        print("divide by zero error")
-        return 0
-    else:
-        return (a/b)
+
 print('\n\t\t\t SIMPLE CALCULATOR\n')
 while 1:
     print('which operation you want to ?\n')
@@ -19,11 +8,11 @@ while 1:
     b=float(input("Enter second number\n"))
     
     if ch is 1:                        #is also used as equality operator
-        print("ans=",add(a,b))
+        print("ans=",a+b)
     elif(ch==2):
-        print("ans=",sub(a,b))
+        print("ans=",a-b)
     elif(ch==3):
-        print("ans=",mul(a,b))
+        print("ans=",a*b)
     elif(ch==4):
-        print("ans=",divide(a,b))
+        print("ans=",a/b)
     else:print("improper choice\n")
