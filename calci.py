@@ -6,7 +6,7 @@ def mul(a,b):
     return (a*b)
 def divide(a,b):
     if(b==0):
-        print("divide by zero error")
+        print("divide by zero is not allowed")
         return 0
     else:
         return (a/b)
